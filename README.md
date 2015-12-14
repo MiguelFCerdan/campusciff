@@ -18,7 +18,7 @@ Se ha seleccionado la opción "New repository" disponible en GitHub.
 git clone git@github.com:MiguelCerdan/campusciff.git
 ```
 
-(../img/Paso_2.2.png)
+![](/img/Paso_2.2.png)
 
 
 ## 2.3 README
@@ -70,7 +70,7 @@ vi .gitignore
 
 Se añaden las excepciones al archivo .gitignore:
 
-(imagen Paso_2.7.png)
+![](/img/Paso_2.7.png)
 
 Se escribe en VI ':q' para salir tras haber escrito con ':w'.
 
@@ -194,7 +194,7 @@ vi 1.txt
 
 Se soluciona el conflicto mediante VI:
 
-(imagen Paso_2.19.png)
+![](/img/Paso_2.19.png)
 
 ```
 git add .
@@ -226,7 +226,7 @@ git log --oneline --decorate --graph --all
 
 Desde la página del perfil, en la columna "Personal Settings", pestaña de "Profile", se puede editar llegando a la siguiente página:
 
-(imagen Paso_2.22.1.png)
+![](/img/Paso_2.22.1.png)
 
 En ella se puede subir una foto en "Upload new picture".
 Al acabar, hay que clicar en "Update profile".
@@ -235,7 +235,7 @@ Al acabar, hay que clicar en "Update profile".
 
 En la misma página de edición del perfil, en la columna de "Personal settings", se selecciona la pestaña "Security". Se activa la "Two-factor authentication":
 
-(imagen Paso_2.22.2.png)
+![](/img/Paso_2.22.2.png)
 
 Se siguen los pasos. En este caso se ha elegido la opción de recibir la segunda contraseña via SMS.
 
@@ -243,7 +243,7 @@ Se siguen los pasos. En este caso se ha elegido la opción de recibir la segunda
 
 La clave pública fue añadida anteriormente, como puede observarse en la pestaña "SSH keys":
 
-(imagen Paso_2.22.3.png)
+![](/img/Paso_2.22.3.png)
 
 ## 2.23 USO SOCIAL DE GITHUB
 1. Preguntar los nombres de usuario de GitHub de tus compañeros de clase, búscalos, y sigueles.
@@ -263,13 +263,13 @@ Estoy siguiendo a los siguientes compañeros de clase:
 - Miriam Asenjo
 - Cristóbal Rodríguez Fraile
 
-(imagen Paso_2.23.1.png)
+![](/img/Paso_2.23.1.png)
 
 2. Seguir los repositorios __campusciff__ del resto de tus compañeros.
 
 Se sigue un repositorio mediante el boton "Watch".
 
-(imagen Paso_2.23.2.png)
+![](/img/Paso_2.23.2.png)
 
 Se ha realizado en los siguientes compañeros:
 - ciffSara
@@ -304,25 +304,25 @@ compañeros de clase:
 ## 2.25 COLABORADORES
 1. Poner a [github.com/asanzdiego](http://github.com/asanzdiego) como colaborador del repositorio __campusciff__.
 
-(imagen Paso_2.25.png)
+![](/img/Paso_2.25.png)
 
 ## 2.26 CREAR UNA ORGANIZACIÓN
 1. Crear una organización llamada __campuscifftunombredeusuariodegithub__.
 
-(imagen Paso_2.26.png)
+![](/img/Paso_2.26.png)
 
 ## 2.27 CREAR EQUIPOS
 * Crear 2 equipos en la organización __campuscifftunombredeusuariodegithub__, uno llamado __administradores__ con más permisos y otro __colaboradores__ con menos permisos.
 
-(imagen Paso_2.27.1.png)
+![](/img/Paso_2.27.1.png)
 
 * Meter a [github.com/asanzdiego](http://github.com/asanzdiego) y a 2 de vuestros compañeros de clase en el equipo __administradores__.
 
-(imagen Paso_2.27.2.png)
+![](/img/Paso_2.27.2.png)
 
 3. Meter a [github.com/asanzdiego](http://github.com/asanzdiego) y a otros 2 de vuestros compañeros de clase en el equipo __colaboradores__.
 
-(imagen Paso_2.27.3.png)
+![](/img/Paso_2.27.3.png)
 
 ## 2.28 CREAR UN INDEX.HTML
 1. Crear un index.html que se pueda ver como página web en la organización.
@@ -347,7 +347,7 @@ Hago fork a los repositorios:
 - [http://campusciff-goaluix.github.io](http://campusciff-goaluix.github.io)
 - [http://campusciff-edugago.github.io](http://campusciff-edugago.github.io)
 
-(Imagen Paso_2.29.1.png)
+![](/img/Paso_2.29.1.png)
 
 Clono los repositorios en repositorio local:
 
@@ -389,11 +389,11 @@ Se repiten los mismos pasos con campusciff-edugago.github.io
 
 Solicito pull request en "Compare & pull request" sobre la rama que yo mismo he creado:
 
-(Imagen Paso_2.29.4.png)
+![](/img/Paso_2.29.4.png)
 
 Los compañeros aceptan mis pull request:
 
-(Imagen Paso_2.29.4b.png)
+![](/img/Paso_2.29.4b.png)
 
 ## 2.30 GESTIONAR PULL-REQUESTS
 1. Aceptar los pull-request que lleguen a los repositorios de tu organización.
