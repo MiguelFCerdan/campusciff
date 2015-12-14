@@ -177,6 +177,10 @@ git checkout master
 git merge v0.2 -m "segunda fusion (merge) v0.2 en master"
 ```
 
+Tenemos un conflicto:
+
+![](/img/Paso_2.17_conflict.png)
+
 ## 2.18 LISTADO DE RAMAS
 1. Listar las ramas con merge y las ramas sin merge.
 
@@ -194,12 +198,16 @@ vi 1.txt
 
 Se soluciona el conflicto mediante VI:
 
-![](/img/Paso_2.19.png)
+![](/img/Paso_2.19_conflict_solved.png)
 
 ```
 git add .
 git commit -m "conflicto resuelto"
 ```
+
+Se comprueba que ya están las dos ramas fusionadas (merged):
+
+![](/img/Paso_2.19_conflict_solved2.png)
 
 ## 2.20 BORRAR RAMA
 * Crear un tag __v0.2__.
@@ -214,12 +222,16 @@ git tag v0.2
 git branch -d v0.2
 ```
 
+
 ## 2.21 LISTADO DE CAMBIOS
 1. Listar los distintos commits con sus ramas y sus tags.
 
 ```
 git log --oneline --decorate --graph --all
 ```
+
+![](/img/Paso_2.21.png)
+
 
 ## 2.22 CUENTA DE GITHUB
 * Poner una foto en vuestro perfil de GitHub.
