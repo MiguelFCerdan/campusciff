@@ -281,7 +281,7 @@ Se ha realizado en los siguientes compañeros:
 - Miriam Asenjo
 - Cristobal Rodríguez Fraile
 
-3. Añadir una estrella a los repositorios __campusciff__ del resto de tus compañeros.
+* Añadir una estrella a los repositorios __campusciff__ del resto de tus compañeros.
 
 Se ha añadido una estrella a todos los repositorios campusciff de los compañeros mencionados antes.
 
@@ -380,7 +380,6 @@ git add .
 git commit -m "Miguel Cerdán"
 git push origin rama_MiguelCerdan
 cd ..
-
 ```
 
 Se repiten los mismos pasos con campusciff-edugago.github.io
