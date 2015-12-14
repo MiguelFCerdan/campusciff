@@ -7,7 +7,7 @@
 
 Se ha seleccionado la opción "New repository" disponible en GitHub.
 
-(img/Paso_2.1.png)
+!(/img/Paso_2.1.png)
 
 
 ## 2.2 REPOSITORIO CAMPUSCIFF (II)
@@ -103,13 +103,13 @@ git push --tag origin master
 ```
 
 ## 2.11 CREAR UNA RAMA V0.2
-1. Crear una rama __v0.2__.
+* Crear una rama __v0.2__.
 
 ```
 git branch v0.2
 ```
 
-2. Posiciona tu carpeta de trabajo en esta rama.
+* Posiciona tu carpeta de trabajo en esta rama.
 
 ```
 git checkout v0.2
@@ -202,13 +202,13 @@ git commit -m "conflicto resuelto"
 ```
 
 ## 2.20 BORRAR RAMA
-1. Crear un tag __v0.2__.
+* Crear un tag __v0.2__.
 
 ```
 git tag v0.2
 ```
 
-2. Borrar la rama __v0.2__.
+* Borrar la rama __v0.2__.
 
 ```
 git branch -d v0.2
@@ -222,7 +222,7 @@ git log --oneline --decorate --graph --all
 ```
 
 ## 2.22 CUENTA DE GITHUB
-1. Poner una foto en vuestro perfil de GitHub.
+* Poner una foto en vuestro perfil de GitHub.
 
 Desde la página del perfil, en la columna "Personal Settings", pestaña de "Profile", se puede editar llegando a la siguiente página:
 
@@ -231,7 +231,7 @@ Desde la página del perfil, en la columna "Personal Settings", pestaña de "Pro
 En ella se puede subir una foto en "Upload new picture".
 Al acabar, hay que clicar en "Update profile".
 
-2. Poner el doble factor de autentificación en vuestra cuenta de GitHub.
+* Poner el doble factor de autentificación en vuestra cuenta de GitHub.
 
 En la misma página de edición del perfil, en la columna de "Personal settings", se selecciona la pestaña "Security". Se activa la "Two-factor authentication":
 
@@ -239,7 +239,7 @@ En la misma página de edición del perfil, en la columna de "Personal settings"
 
 Se siguen los pasos. En este caso se ha elegido la opción de recibir la segunda contraseña via SMS.
 
-3. Añadir (si no lo habéis hecho ya) la clave pública que se corresponde a tu ordenador.
+* Añadir (si no lo habéis hecho ya) la clave pública que se corresponde a tu ordenador.
 
 La clave pública fue añadida anteriormente, como puede observarse en la pestaña "SSH keys":
 
