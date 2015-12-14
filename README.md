@@ -7,7 +7,7 @@
 
 Se ha seleccionado la opción "New repository" disponible en GitHub.
 
-(../img/Paso_2.1.png)
+(img/Paso_2.1.png)
 
 
 ## 2.2 REPOSITORIO CAMPUSCIFF (II)
