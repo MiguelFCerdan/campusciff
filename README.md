@@ -7,7 +7,7 @@
 
 Se ha seleccionado la opción "New repository" disponible en GitHub.
 
-![Pasos seguidos en Git Bash](../img/Paso_2.2.png)
+(../img/Paso_2.1.png)
 
 
 ## 2.2 REPOSITORIO CAMPUSCIFF (II)
@@ -17,6 +17,8 @@ Se ha seleccionado la opción "New repository" disponible en GitHub.
 ```
 git clone git@github.com:MiguelCerdan/campusciff.git
 ```
+
+(../img/Paso_2.2.png)
 
 
 ## 2.3 README
@@ -46,13 +48,13 @@ git push origin master
 
 
 ## 2.6 IGNORAR ARCHIVOS (I)
-1. Crear en el repositorio local un fichero llamado __privado.txt__.
+* Crear en el repositorio local un fichero llamado __privado.txt__.
 
 ```
 touch privado.txt
 ```
 
-2. Crear en el repositorio local una carpeta llamada __privada__.
+* Crear en el repositorio local una carpeta llamada __privada__.
 
 ```
 mkdir privada
@@ -66,7 +68,9 @@ mkdir privada
 vi .gitignore
 ```
 
-![Se añaden las excepciones al archivo .gitignore] (imagen Paso_2.7.png)
+Se añaden las excepciones al archivo .gitignore:
+
+(imagen Paso_2.7.png)
 
 Se escribe en VI ':q' para salir tras haber escrito con ':w'.
 
@@ -134,13 +138,13 @@ git push origin v0.2
 ```
 
 ## 2.14 MERGE DIRECTO
-1. Posicionarse en la rama __master__.
+* Posicionarse en la rama __master__.
 
 ```
 git checkout master
 ```
 
-2. Hacer un merge de la rama __v0.2__ en la rama __master__.
+* Hacer un merge de la rama __v0.2__ en la rama __master__.
 
 ```
 git merge v0.2 ESTO PODRIA SOBRAR: -m "fusion (merge) v0.2 en master"
@@ -187,7 +191,10 @@ git branch --no-merged
 ```
 vi 1.txt
 ```
-![Se soluciona el conflicto mediante VI:] (imagen Paso_2.19)
+
+Se soluciona el conflicto mediante VI:
+
+(imagen Paso_2.19.png)
 
 ```
 git add .
@@ -217,9 +224,7 @@ git log --oneline --decorate --graph --all
 ## 2.22 CUENTA DE GITHUB
 1. Poner una foto en vuestro perfil de GitHub.
 
-Desde la página del perfil, en la columna "Personal Settings", pestaña de "Profile", se puede editar 
-
-llegando a la siguiente página:
+Desde la página del perfil, en la columna "Personal Settings", pestaña de "Profile", se puede editar llegando a la siguiente página:
 
 (imagen Paso_2.22.1.png)
 
@@ -228,9 +233,7 @@ Al acabar, hay que clicar en "Update profile".
 
 2. Poner el doble factor de autentificación en vuestra cuenta de GitHub.
 
-En la misma página de edición del perfil, en la columna de "Personal settings", se selecciona la 
-
-pestaña "Security". Se activa la "Two-factor authentication":
+En la misma página de edición del perfil, en la columna de "Personal settings", se selecciona la pestaña "Security". Se activa la "Two-factor authentication":
 
 (imagen Paso_2.22.2.png)
 
@@ -299,9 +302,7 @@ compañeros de clase:
 |  Cristobal Rodríguez Fraile |  [link perfil](http://github.com/crisrodfra)         |
 
 ## 2.25 COLABORADORES
-1. Poner a [github.com/asanzdiego](http://github.com/asanzdiego) como colaborador del repositorio 
-
-__campusciff__.
+1. Poner a [github.com/asanzdiego](http://github.com/asanzdiego) como colaborador del repositorio __campusciff__.
 
 (imagen Paso_2.25.png)
 
@@ -311,21 +312,15 @@ __campusciff__.
 (imagen Paso_2.26.png)
 
 ## 2.27 CREAR EQUIPOS
-1. Crear 2 equipos en la organización __campuscifftunombredeusuariodegithub__, uno llamado 
-
-__administradores__ con más permisos y otro __colaboradores__ con menos permisos.
+* Crear 2 equipos en la organización __campuscifftunombredeusuariodegithub__, uno llamado __administradores__ con más permisos y otro __colaboradores__ con menos permisos.
 
 (imagen Paso_2.27.1.png)
 
-2. Meter a [github.com/asanzdiego](http://github.com/asanzdiego) y a 2 de vuestros compañeros de 
-
-clase en el equipo __administradores__.
+* Meter a [github.com/asanzdiego](http://github.com/asanzdiego) y a 2 de vuestros compañeros de clase en el equipo __administradores__.
 
 (imagen Paso_2.27.2.png)
 
-3. Meter a [github.com/asanzdiego](http://github.com/asanzdiego) y a otros 2 de vuestros compañeros 
-
-de clase en el equipo __colaboradores__.
+3. Meter a [github.com/asanzdiego](http://github.com/asanzdiego) y a otros 2 de vuestros compañeros de clase en el equipo __colaboradores__.
 
 (imagen Paso_2.27.3.png)
 
@@ -343,14 +338,10 @@ git commit -m "subido index.html"
 git push origin master
 ```
 
-Se puede ver aquí: [http://campusciff-MiguelCerdan.github.io](http://campusciff-
-
-MiguelCerdan.github.io)
+Se puede ver aquí: [http://campusciff-MiguelCerdan.github.io](http://campusciff-MiguelCerdan.github.io)
 
 ## 2.29 CREAR PULL-REQUESTS
-1. Hacer 2 forks de 2 repositorios __campuscifftunombredeusuariodegithub.github.io__ de 2 
-
-organizaciones de las que no seais ni administradores ni colaboradores.
+* Hacer 2 forks de 2 repositorios __campuscifftunombredeusuariodegithub.github.io__ de 2 organizaciones de las que no seais ni administradores ni colaboradores.
 
 Hago fork a los repositorios:
 - [http://campusciff-goaluix.github.io](http://campusciff-goaluix.github.io)
@@ -365,7 +356,7 @@ git clone git@github.com:MiguelCerdan/campusciff-goaluix.github.io.git
 git clone git@github.com:MiguelCerdan/campusciff-edugago.github.io.git
 ```
 
-2. Crearos una rama en cada fork.
+* Crearos una rama en cada fork.
 
 Para cada uno:
 
@@ -374,7 +365,7 @@ cd campusciff-goaluix.github.io
 git branch rama_MiguelCerdan
 ```
 
-3. En cada rama modificar el fichero index.html añadiendo vuestro nombre.
+* En cada rama modificar el fichero index.html añadiendo vuestro nombre.
 
 ```
 git checkout rama_MiguelCerdan
@@ -394,7 +385,7 @@ cd ..
 
 Se repiten los mismos pasos con campusciff-edugago.github.io
 
-4. Con cada rama hacer un pull-request.
+* Con cada rama hacer un pull-request.
 
 Solicito pull request en "Compare & pull request" sobre la rama que yo mismo he creado:
 
